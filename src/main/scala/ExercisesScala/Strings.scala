@@ -10,5 +10,6 @@ object Strings extends App {
   println(aString.length)
   println("Neshto novo")
   println("drugo ")
+  println("treto")
 
 }
