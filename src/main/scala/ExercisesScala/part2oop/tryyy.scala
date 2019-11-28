@@ -9,4 +9,5 @@ object tryyy extends App {
     lista.map(x => x.toInt)
   }
   println(f(3,lista1))
+
 }
