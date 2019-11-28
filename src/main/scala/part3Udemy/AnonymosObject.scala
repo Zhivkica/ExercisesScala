@@ -1,5 +1,5 @@
 package part3Udemy
 
-object AnonymosObject {
+object AnonymosObject extends App {
 
 }
