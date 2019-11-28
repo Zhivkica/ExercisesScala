@@ -30,6 +30,8 @@ object CaseClass extends App {
 
   //7. Case Object isto ko case Class samo objekt
 
+
+
   case object UnitedKingdom{
     def name: String = " The Uk"
   }
