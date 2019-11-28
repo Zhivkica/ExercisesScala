@@ -8,5 +8,6 @@ object Strings extends App {
   println(aString.substring(7))
   println(aString.split(" ").toList)
   println(aString.length)
+  println("Neshto novo")
 
 }
