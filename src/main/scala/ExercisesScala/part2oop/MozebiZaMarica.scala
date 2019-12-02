@@ -7,14 +7,25 @@ object MozebiZaMarica extends App {
 
 
   val u= for{
-    i <- niza
-    j <- niza
+    i <- a.indices
+    j <- a.indices
     if(i==j)
   } yield {
 
     a(i)(j)
   }
-  println(u)
+  println(u.sum)
+  val v= for{
+    i <- 0 until a.length
+    j <- 0 until a.length
+    if(i+j==a.length-1)
+  } yield {
+
+    a(i)(j)
+  }
+  println(v.sum)
+  println(Math.abs(v.sum+u.sum))
+
 
 
 }
